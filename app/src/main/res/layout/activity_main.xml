@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3">
+    <!-- شمارنده -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="چندتا حدس زدی "
+        android:textColor="@color/black"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/txtCounter"
+        android:text="1 / 1000"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/txtGuess"
+        android:text="_ _ _"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center" />
+
+
+    <GridLayout
+        android:id="@+id/letterGrid"
+        android:columnCount="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
